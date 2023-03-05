@@ -22,3 +22,6 @@ Route::get('/', function () {
 Route::get('/', function () {
     return "Add coding";
 });
+Route::get('/', function () {
+    return view('welcome');
+});
