@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/', function () {
     return "Hello world";
 });
+Route::get('/', function () {
+    return "Add coding";
+});
